@@ -1,0 +1,24 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "um geteway para pagamentos atraves de recursos http.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thayronFeitosa/payfast-desenvolvendo-API-REST-alura.git"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "thayron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thayronFeitosa/payfast-desenvolvendo-API-REST-alura/issues"
+  },
+  "homepage": "https://github.com/thayronFeitosa/payfast-desenvolvendo-API-REST-alura#readme"
+}

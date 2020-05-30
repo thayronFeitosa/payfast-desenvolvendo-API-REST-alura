@@ -1,7 +1,7 @@
 <h1>payfast-desenvolvendo-API-REST-alura</h1>
 
 <p>
-    Esse estudo tem como base aprenser a faser uma api seguindo os padroes REST.<br>
+    Esse estudo tem como base aprender a faser uma api seguindo os padroes REST.<br>
 </p>
 
 <p>
@@ -9,9 +9,9 @@
   
    <strong>As dependências que foram utilizadas no projeto foram:</strong><br>
         <ul>
-          <li>npm install express --save Documentação <a href="https://expressjs.com/pt-br/guide/routing.html">express</a></li>
-          <li>npm install nodemon --save </li>
-          <li>npm install --save body-parser </li> 
-          <li>npm install --save consign (<strong>vesão: 0.1.6</strong>)</li>
+          <li>npm install express --save <a href="https://expressjs.com/pt-br/guide/routing.html">(Documentação)</a></li>
+          <li>npm install nodemon --save <a href="https://www.npmjs.com/package/nodemon">(Documentação)</a></li>
+          <li>npm install --save body-parser <a href="https://www.npmjs.com/package/body-parser">(Documentação)</a></li> 
+          <li>npm install --save consign <a href="https://www.npmjs.com/package/consign">(Documentação)</a></li>
         </ul>
 </p>

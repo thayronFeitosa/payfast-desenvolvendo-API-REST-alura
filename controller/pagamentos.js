@@ -20,10 +20,13 @@ module.exports = function(app){
         var pagamentoDao =  new app.persistencia.PagamentoDao(connection);
 
         pagamentoDao.salva(pagamento, function(erro, resultado){
-            console.log('pagamento criado');
-            console.log(erro);
-            res.json(pagamento);
-        
+            if(erro){
+                console.log('Erro ao gravar no banco de dados: '+ erro);
+                res.status(400).send(erro);
+            }else{
+                console.log('pagamento criado');
+                res.json(pagamento);
+            }
         });
 
     });

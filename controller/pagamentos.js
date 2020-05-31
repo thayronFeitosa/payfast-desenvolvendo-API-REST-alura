@@ -15,8 +15,9 @@ app.post('/pagamentos/pagamento',function(req, res){
     console.log('processando uma requisição de um novo pagamento!');
     pagamento.status = 'CRIADO';
     pagamento.data = new Date;
-    
-    
+
+    var connection = app.persistencia
+
     res.send(pagamento);
     
 });

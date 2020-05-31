@@ -10,6 +10,7 @@ module.exports = function(){
 
    consing()
     .include('controller')
+    .then('persinstencia')
     .into(app);
    return app;
 }

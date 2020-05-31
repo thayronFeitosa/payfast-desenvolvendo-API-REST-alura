@@ -5,12 +5,12 @@ var bodyParser = require('body-parser');
 module.exports = function(){
    var app = express();
 
-   //app.use(bodyParser.urlencoded({extended: true}));
+   app.use(bodyParser.urlencoded({extended: true}));
    app.use(bodyParser.json());
 
    consing()
     .include('controller')
-    .then('persinstencia')
+    .then('persistencia')
     .into(app);
    return app;
 }

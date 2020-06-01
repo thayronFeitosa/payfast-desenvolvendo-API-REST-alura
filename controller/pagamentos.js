@@ -34,10 +34,10 @@ module.exports = function(app){
         pagamentoDao.salva(pagamento, function(erro, resultado){
             if(erro){
                 console.log('Erro ao gravar no banco de dados: '+ erro);
-                res.status(400).send(erro);
+                res.status(500).send(erro);
             }else{
                 console.log('pagamento criado');
-                res.json(pagamento);
+                res.status(201).json(pagamento);
             }
         });
 
